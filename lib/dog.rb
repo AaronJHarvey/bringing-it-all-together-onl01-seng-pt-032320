@@ -37,6 +37,7 @@ class Dog
       self
     end
     
-    def new_from_db()
+    def self.create(name:,breed:)
+      
     end
 end
