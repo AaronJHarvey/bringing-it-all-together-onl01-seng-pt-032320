@@ -36,4 +36,6 @@ class Dog
       end
       self
     end
+    
+    def new_from_db(row)
 end
