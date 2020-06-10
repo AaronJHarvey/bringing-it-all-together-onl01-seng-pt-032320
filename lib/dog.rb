@@ -71,7 +71,7 @@ class Dog
         LIMIT 1
       SQL
       
-      DB[:conn].execute(sql, dog.name, dog.breed)
+      DB[:conn].execute(sql, name, breed)
       
       if !dog.empty? 
         dog_information = dog[0]
