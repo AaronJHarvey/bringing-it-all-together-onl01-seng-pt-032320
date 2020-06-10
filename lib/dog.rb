@@ -55,6 +55,10 @@ class Dog
         SELECT * 
         FROM dogs
         WHERE id = ?
+        LIMIT 1 
       SQL
+      
+     DB[:conn].execut(sql,id_num)
+     self.create
     end
 end
