@@ -72,7 +72,7 @@ class Dog
       SQL
       
       if !dog.empty? 
-        
+        dog_information = 
       end
     end
 end
