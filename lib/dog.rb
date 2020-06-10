@@ -37,5 +37,5 @@ class Dog
       self
     end
     
-    def new_from_db(row)
+    def new_from_db()
 end
