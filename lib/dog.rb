@@ -71,6 +71,8 @@ class Dog
         LIMIT 1
       SQL
       
-      
+      if !dog.empty? 
+        
+      end
     end
 end
