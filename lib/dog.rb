@@ -77,7 +77,7 @@ class Dog
         dog_information = dog[0]
         dog = Dog.new(id:dog_information[0],name:dog_information[1],breed:dog_information[2])
       else
-        dog.create(name:name, breed:breed)
+        dog.create(name, breed)
       end
       dog
     end
