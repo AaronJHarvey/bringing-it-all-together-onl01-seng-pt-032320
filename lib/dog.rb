@@ -72,7 +72,8 @@ class Dog
       SQL
       
       if !dog.empty? 
-        dog_information = 
+        dog_information = dog[0]
+        
       end
     end
 end
